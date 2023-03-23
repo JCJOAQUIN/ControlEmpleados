@@ -1,0 +1,313 @@
+/* Configuracion de colores */
+:root{
+    --primary: #28B463;
+    --secondary: #08ccac;
+    --grey: #595959;
+    --darkprimary: #0289D9;
+    --softgreen: #02D93C;
+    --lightgreen: #02E37E;
+    --dark: #000;
+    --light:#fff;
+}
+
+/* Configuracion general */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* Login de firma de empleados e inicio de sesion */
+#signBody{
+    overflow: hidden;
+}
+#login{
+    position: relative;
+    height: 100vh;
+    background-image: url(../images/waveFormInformation.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 220%;
+}
+
+#titleLogin{
+    color: var(--darkprimary);
+}
+#subTitleLogin{
+    color: var(--primary);
+}
+#form{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+}
+
+#singSpace{
+    width: 100%;
+    height: 100%;
+}
+
+#bienvenida{
+    /* margin-top: 50px; */
+    color: var(--grey);
+    font-size: 3rem;
+}
+#lavelClaveEmp{
+    color: var(--grey);
+}
+#linkSesion a{
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 1rem;
+}
+#linkSesion a:hover{
+    color: gray;
+}
+.loginSide{
+    width: 50%;
+    height: 500px;    
+}
+#cabeceraLogin{
+    width: 70%;
+    margin: 0 auto;
+    border: 2pd solid blue;
+}
+#loginBody{
+    overflow: hidden;
+}
+#imgLogin{
+    width: 100%;
+}
+
+#volverinicio{
+    margin-top: 25px;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+#volverinicio:hover{
+    color: #198754;
+    font-weight: 500;
+}
+/* ----------------------------------------------------------------- */
+/* Menu administrador */
+/* Configuracion de la cabecera del menu de administrador */
+
+#adminwelcome{
+    width: 90%;
+    margin: 0 auto;
+}
+#adminwelcome h1{
+    color: var(--secondary);
+    text-align: center;
+}
+#adminwelcome h2{
+    color: var(--grey);
+    margin-top: 30px;
+    text-align: left;
+}
+
+#adminwelcome h3{
+    color: var(--grey);
+    margin-top: 30px;
+    text-align: left;
+    font-size: 3rem;
+}
+
+#welcomeImage{
+    width: 500px;
+    border-radius: 10px;
+}
+
+#menuAdmin{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    color: white;
+    border: 6px solid var(--primary);
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+}
+
+
+#separadorMenu{
+    width: 100%;
+    height: 6px;
+    background-color: white !important;
+}
+/* Configuracion del menu de administrador */
+#accordionExample{
+    margin: 0;
+    padding: 0;
+}
+
+.menuOption{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    background-color: var(--primary);
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: none;
+    justify-content: center;
+}
+
+.title{
+    margin: 0;
+    color: white;
+    width: 290px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: left;
+    transition: ease-in-out .2s;
+}
+
+.title:hover{
+    background-color: var(--darkprimary);
+    color: white;
+    font-weight: 500;
+}
+.card-body{
+    padding: 0;
+    background-color: var(--primary);
+
+}
+.card-body ul{
+    margin: 0 0 0 50px;
+    padding: 0;
+    list-style: none;
+    background-color: var(--primary);
+
+}
+.subMenu{
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.subMenu:hover{
+    color: var(--grey);
+}
+/* ----------------------------------------------------------------- */
+/* Cabecera principal */
+#title {
+    height: 70px;
+    color: var(--primary);
+}
+/* ----------------------------------------------------------------- */
+/* Contenido principal */
+.main{
+    margin-left: 300px;
+}
+
+#barTitle container #imagenEstacion{
+    width: 150px;
+    height: 150px;
+    border: 2px solid var(--darkprimary) !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------- */
+/* Configuracion general de tablas */
+.headings{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: var(--primary);
+    font-size: 2rem;
+}
+
+.tablas{
+    width: 100%;    
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;     
+    border-radius: 5px;
+}
+.tablasHead{
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 500;
+}
+.tablasHeadrepot{
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 500;
+}
+.tablasBody{
+    width: 100%;
+    margin: 0 auto;
+    color: var(--grey);
+}
+
+/* ----------------------------------------------------------------- */
+/* Contenido departamentos */
+
+
+/* ----------------------------------------------------------------- */
+/* Contenido creación de departamentos */
+#departCrearFrorm{
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------- */
+/* Contenido edición de departamentos */
+
+#edicionDepartForm{
+    width: 75%;
+    margin: 0 auto;
+}
+.labelsDepa{
+    color: gray;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* Contenido alta empleados */
+
+
+
+.labelsStatus{
+    color: var(--grey);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.horariosFrorm{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#labelAyudaManual{
+    color: var(--secondary);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#ayudaManual{
+    color: var(--grey);
+}
+.reporte-emp{
+    font-size: 2.5rem;
+}
